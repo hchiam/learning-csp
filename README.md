@@ -22,3 +22,7 @@ _**Triple**_-click to select all:
 ```
 
 (Replace `https://developers.google.com` with your trusted source(s).)
+
+## Quickly check your CSP
+
+<https://csp-evaluator.withgoogle.com/>
