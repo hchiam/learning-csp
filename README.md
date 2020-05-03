@@ -2,6 +2,8 @@
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
+![example CSP meta tag](https://github.com/hchiam/learning-csp/blob/master/example-csp.png "example CSP meta tag")
+
 <https://developers.google.com/web/fundamentals/security/csp>
 
 - source whitelisting
