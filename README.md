@@ -26,3 +26,9 @@ _**Triple**_-click to select all:
 ## Quickly check your CSP
 
 <https://csp-evaluator.withgoogle.com/>
+
+## A quick note on [SRI (Subresource integrity)](https://www.smashingmagazine.com/2019/04/understanding-subresource-integrity)
+
+```html
+Content-Security-Policy: require-sri-for script
+```
