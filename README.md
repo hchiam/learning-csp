@@ -1,4 +1,4 @@
-# Learning about CSP
+# Learning about CSP (Content Security Policy)
 
 Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
