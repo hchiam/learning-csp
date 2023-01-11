@@ -17,8 +17,12 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 ## Just want to copy and paste some code?
 
 _**Triple**_-click to select all:
+
 ```html
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src https://developers.google.com; style-src https://developers.google.com; img-src https://developers.google.com; connect-src https://developers.google.com; child-src 'self'"> 
+<meta
+  http-equiv="Content-Security-Policy"
+  content="default-src 'none'; script-src https://developers.google.com; style-src https://developers.google.com; img-src https://developers.google.com; connect-src https://developers.google.com; child-src 'self'"
+/>
 ```
 
 (Replace `https://developers.google.com` with your trusted source(s).)
