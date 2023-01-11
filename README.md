@@ -41,14 +41,22 @@ Content-Security-Policy: require-sri-for script
 
 https://portswigger.net/web-security/cross-site-scripting/content-security-policy
 
+https://portswigger.net/web-security/clickjacking#:~:text=against%20clickjacking%20attacks.-,Content%20Security%20Policy,-(CSP) (look for the "Content Security Policy" section)
+
 ```html
 Content-Security-Policy: frame-ancestors 'none';
 ```
+
+- is like the response header `X-Frame-Options: deny` (which you should use for older browsers).
 
 ```html
 Content-Security-Policy: frame-ancestors 'self';
 ```
 
+- is like the response header `X-Frame-Options: sameorigin` (which you should use for older browsers).
+
 ```html
 Content-Security-Policy: frame-ancestors normal-website.com;
 ```
+
+- is like the response header `X-Frame-Options: allow-from https://normal-website.com` (which you should use for older browsers).
