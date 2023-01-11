@@ -36,3 +36,19 @@ _**Triple**_-click to select all:
 ```html
 Content-Security-Policy: require-sri-for script
 ```
+
+## More info on CSP
+
+https://portswigger.net/web-security/cross-site-scripting/content-security-policy
+
+```html
+Content-Security-Policy: frame-ancestors 'none';
+```
+
+```html
+Content-Security-Policy: frame-ancestors 'self';
+```
+
+```html
+Content-Security-Policy: frame-ancestors normal-website.com;
+```
