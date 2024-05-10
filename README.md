@@ -16,7 +16,10 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## Just want to copy and paste some code?
 
-_**Triple**_-click to select all:
+Click on GitHub's new copy-to-clipboard button:
+
+![animation showing how to hover to get the copy-to-clipboard button](copy-code-to-clipboard.gif)
+<!-- _**Triple**_-click to select all: -->
 
 ```html
 <meta
