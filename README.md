@@ -31,6 +31,8 @@ _**Triple**_-click to select all:
 
 <https://csp-evaluator.withgoogle.com/>
 
+Or a more general site security scanner (still basic): https://observatory.mozilla.org/
+
 ## A quick note on [SRI (Subresource integrity)](https://www.smashingmagazine.com/2019/04/understanding-subresource-integrity)
 
 ```html
