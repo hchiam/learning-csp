@@ -1,10 +1,10 @@
 # Learning about CSP (Content Security Policy)
 
-Just one of the things I'm learning. <https://github.com/hchiam/learning>
+Just one of the things I'm learning. https://github.com/hchiam/learning
 
-![example CSP meta tag](https://github.com/hchiam/learning-csp/blob/master/example-csp.png "example CSP meta tag")
+![example CSP meta tag](https://github.com/hchiam/learning-csp/blob/main/example-csp.png "example CSP meta tag")
 
-<https://developers.google.com/web/fundamentals/security/csp>
+https://developers.google.com/web/fundamentals/security/csp
 
 - source whitelisting
 - avoid inline code = best practice anyways, and improves caching, readability, compilation, and minification
@@ -12,7 +12,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 ## Want to see a live demo and play with the code?
 
-<https://codepen.io/hchiam/pen/vYNWGrj>
+https://codepen.io/hchiam/pen/vYNWGrj
 
 ## Just want to copy and paste some code?
 
@@ -32,7 +32,7 @@ Click on GitHub's new copy-to-clipboard button:
 
 ## Quickly check your CSP
 
-<https://csp-evaluator.withgoogle.com/>
+https://csp-evaluator.withgoogle.com/
 
 Or a more general site security scanner (still basic): https://observatory.mozilla.org/
 
