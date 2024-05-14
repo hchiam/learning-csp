@@ -65,3 +65,17 @@ Content-Security-Policy: frame-ancestors normal-website.com;
 ```
 
 - is like the response header `X-Frame-Options: allow-from https://normal-website.com` (which you should use for older browsers).
+
+## inline css vs inline js
+
+CSS:
+
+- _inline_ css: `<p style="background:red;">...</p>`
+- **_internal css:_** `<style>*{background:red;}</style>`
+- external scs: `<link href="file.css"/>`
+
+JS:
+
+- _inline_ js: `<p onclick="alert()">...</p>`
+- **_also_ _inline_ js:** `<script>alert();</script>`
+- external js: `<script src="file.js"></script>`
