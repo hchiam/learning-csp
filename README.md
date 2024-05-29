@@ -79,3 +79,11 @@ JS:
 - _inline_ js: `<p onclick="alert()">...</p>`
 - **_also_ _inline_ js:** `<script>alert();</script>`
 - external js: `<script src="file.js"></script>`
+
+## `trustedTypes`
+
+`trustedTypes` lets you prevent DOM XSS page-wide/centrally, instead of trying to manually find and fix all XSS sinks.
+
+CSP (and browser support) is required to use `trustedTypes`
+
+https://github.com/hchiam/learning-trustedTypes
